@@ -1,0 +1,104 @@
+/* menu */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 43px; /* 100px */
+  font-size: 16px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header2 {
+    margin: 0 auto;
+    
+}
+
+.header1 {
+    height: 90px;
+    padding: 20px 0 20px 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header{
+    background-image: url(images/city-scape.svg);
+    background-size: 100%;
+    height: 400px;
+    color: white;
+     
+    
+    background-color: rgb(32, 101, 136);
+ 
+}
+
+.signpm {
+    background-color: rgb(240, 146, 51);
+    border-radius: 0.2em;
+}
+.col1{
+    width: 15%;
+    float: left;
+}
+.col2 {
+    width: 20%;
+    float: left;
+}
+
+.col6 {
+    width: 60%;
+    float: left;
+}
+.col7 {
+    width: 70%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.buscar{
+    width: 95%;
+    height: 45px;
+    background-color: rgb(31, 82, 111);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding-left: 10px;
+}
+
+.login {
+    color: white;
+    
+}
+
+.login a {
+    color: white;
+}
+
+.text_log {
+    float: left;
+    padding-top: 15px;
+}
