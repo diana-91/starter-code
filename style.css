@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 nav {
@@ -29,11 +30,6 @@ nav a {
   margin: 0 10px;
 }
 
-.header2 {
-    margin: 0 auto;
-    
-}
-
 .header1 {
     height: 90px;
     padding: 20px 0 20px 20px;
@@ -48,15 +44,21 @@ nav a {
     background-size: 100%;
     height: 400px;
     color: white;
-     
-    
-    background-color: rgb(32, 101, 136);
- 
+    font-weight: 400 !important;    
+    background-color: rgb(32, 101, 136); 
 }
-
+.header h1{
+    font-size: 48px;
+    
+}
 .signpm {
     background-color: rgb(240, 146, 51);
-    border-radius: 0.2em;
+    border-radius: 1.5em;
+    padding: 10px 20px;
+    color: white;
+    border-collapse: collapse;
+    border: 0;
+    font-size: 16px;
 }
 .col1{
     width: 15%;
@@ -66,27 +68,52 @@ nav a {
     width: 20%;
     float: left;
 }
+.col3 {
+    width: 30%;
+    float: left;
+}
+
+.col4 {
+    width: 40%;
+    float: left;
+}
+
+.col5 {
+    width: 50%;
+    float: left;
+}
 
 .col6 {
     width: 60%;
     float: left;
 }
+
 .col7 {
     width: 70%;
     float: left;
 }
-
-a {
-    text-decoration: none;
     
-}
 
 .buscar{
-    width: 95%;
+    width: 85%;
     height: 45px;
     background-color: rgb(31, 82, 111);
     border: 1px solid rgba(255,255,255,0.2);
     padding-left: 10px;
+    margin-right: 0;
+    float: left;
+    font-size: 18px;
+    
+}
+
+.boton_buscar {
+    height: 45px;
+    background-color: rgb(31, 82, 111);
+    border: 1px solid rgba(255,255,255,0.2);
+    margin-left: 0;
+    width: 5%;
+    color: white;
+    
 }
 
 .login {
@@ -101,4 +128,137 @@ a {
 .text_log {
     float: left;
     padding-top: 15px;
+}
+
+.text_log a {
+    text-decoration: none;
+}
+
+.header2 {
+    margin: 0 auto;
+    width: 40%;
+    padding-right: 32%;
+}
+
+.header2 p {
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.seccion1 {
+    color: white;
+    background-color: rgb(39, 53, 71);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 10% 9%;
+}
+
+.text_sec1 {
+    padding-left: 10%;
+    font-weight: 400;
+}
+
+.text_sec1 h2 {
+    font-size: 30px;
+}
+
+
+.text_sec1 a {
+    color: white;
+    font-weight: bolder;
+}
+
+.ul_sec1 li {
+    padding: 15px 0;
+    white-space: nowrap;
+}
+
+.button_orgs {
+    background-color: rgb(203, 56, 55);
+    border-radius: 1.5em;
+    padding: 10px 20px;
+    color: white;
+    border-collapse: collapse;
+    border: 0;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.seccion2{
+    background-image: url(images/forklift.svg);
+    background-size: cover;
+    color: white;
+}
+.text_sec2{
+    width: 25%;
+    padding: 10%;
+
+}
+
+.text_sec2 h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.text_sec2 p {
+    padding: 15px 0;
+} 
+
+.boton_install {
+    background-color: rgb(49, 68, 88);
+    border-radius: 1.5em;
+    padding: 10px 20px;
+    color: white;
+    border-collapse: collapse;
+    border: 0;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.centrar_sec3 {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0 auto;
+    padding-top: 4%;
+}
+
+
+.centrar_sec3 h2,p,h4 {
+    padding-bottom: 20px;
+}
+
+.centrar_sec3 div {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.centrar_sec3 p{
+    color: gray;
+}
+.centrar_sec3 h2{
+    font-size: 32px;
+}
+.col2 p {
+    font-size: 16px;
+    color: gray;
+    
+}
+
+
+.col2 a{
+    color: red;
+    text-decoration: none;
+}
+
+.col2 h4 {
+    font-size: 20px;
+}
+.img_sec3{
+margin-left: 10%;
+
+}
+
+.separador{
+    margin-right: 100px;
 }
